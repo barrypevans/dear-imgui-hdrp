@@ -159,7 +159,7 @@ namespace ImGuiNET.Unity
         }
 #endif
 
-        void Reset()
+        public void Reset()
         {
             _camera = Camera.main;
             _initialConfiguration.SetDefaults();
