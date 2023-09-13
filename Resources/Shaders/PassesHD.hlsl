@@ -2,7 +2,7 @@
 #define DEARIMGUI_HDRP_INCLUDED
 
 #include "UnityCG.cginc"
-#include "Assets/external/DearImGui/Resources/Shaders/Common.hlsl"
+#include "Packages/com.realgames.dear-imgui/Resources/Shaders/Common.hlsl"
 
 sampler2D _Tex;
 

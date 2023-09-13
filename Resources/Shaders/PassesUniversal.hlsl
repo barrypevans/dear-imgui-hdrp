@@ -3,9 +3,9 @@
 
 #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
 #ifndef UNITY_COLORSPACE_GAMMA
-#include "Packages/com.unity.render-pipelines.core/ShaderLibrary/Color.hlsl"
+//#include "Packages/com.unity.render-pipelines.core/ShaderLibrary/Color.hlsl"
 #endif
-#include "Assets/external/DearImGui/Resources/Shaders/Common.hlsl"
+#include "Packages/com.realgames.dear-imgui/Resources/Shaders/Common.hlsl"
 
 TEXTURE2D(_Tex);
 SAMPLER(sampler_Tex);
